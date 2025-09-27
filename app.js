@@ -7,7 +7,7 @@ const authRoutes = require("./routes/auth");
 const app = express();
 
 // DB connect
-mongoose.connect("mongodb://127.0.0.1:27017/passportAuth");
+mongoose.connect("mongodb://localhost:27017/passportAuth");
 
 // Middleware
 app.set("view engine", "ejs");
